@@ -1,0 +1,104 @@
+/* my portfolio css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6f9;
+    color: #333;
+    margin: 0;
+}
+
+nav {
+    background-color: #b5446e;
+    text-align: center;
+    padding: 15px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+#home {
+    background-color: #f3d9e4;
+    padding: 60px 20px;
+}
+
+h1, h2, .greeting {
+    color: #b5446e;
+}
+
+.btn {
+    background-color: #b5446e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px;
+}
+
+/* boxes for education, projects etc */
+.timeline-item, .card {
+    background-color: white;
+    border: 2px solid #f3d9e4;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px auto;
+    width: 80%;
+}
+
+.aboutBox {
+    font-size: 17px;
+}
+
+.date {
+    color: gray;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    display: block;
+    width: 60%;
+    margin: 5px auto;
+    padding: 8px;
+    font-family: Arial;
+    border: 1px solid pink;
+    /* border: 1px solid black; */
+}
+
+footer {
+    background-color: #b5446e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
